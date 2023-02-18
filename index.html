@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor wymiany walut "Sknerus"</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kator wymiany walut "Sknerus"</legend>
+                <p>
+                    <label>
+                        Kwota w PLN:
+                        <input class="form__field js-amount" min="1" type="numer" name="zloty" step="any" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Wybierz walutę*:
+                        <select class=" form__select js-currency" name="currencyExchanged">
+                            <option>EUR</option>
+                            <option>USD</option>
+                            <option>GBP</option>
+                        </select>
+                    </label>
+                <p>
+                    <label>
+                        Wynik:
+                        <strong class="form__result js-result"></strong>
+                    </label>
+                </p>
+                <p class="form__notice">*- Kurs z dnia 09.02.2023 r.</p>
+                </p>
+            </fieldset>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+            <p>
+                <button class="form__button" type="reset">Wyczyść</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
