@@ -1,7 +1,7 @@
 # Currency converter - some way to train HTML, CSS and JavaScript
 
 ## Demo ##
-https://blaugranista.github.io/homepage/
+ https://blaugranista.github.io/CurrencyConverter/
 
 ### Specification ###
 
