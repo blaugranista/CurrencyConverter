@@ -13,8 +13,12 @@
     padding-top: 20px;
 }
 .container {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 200px;
+    margin: 0px 0px 0px 520px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
 }
 .form__legend {
         color: #f8f9fa;
@@ -30,6 +34,8 @@
     border: 2px solid black;
     box-shadow:5px 5px black;
     background-color: rgb(242, 250, 252);
+    width: 450px;
+    margin: 220px 0px 0px 0px;
 }
 .form__field {
     border-radius: 5px;
@@ -52,4 +58,6 @@
     box-shadow:5px 2px black;
     background-color: rgb(242, 250, 252);
     font-weight: bold;
+    width: 460px;
+    margin: 0 auto;
 }
