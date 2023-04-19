@@ -1,5 +1,7 @@
 # Currency converter - some way to train HTML, CSS and JavaScript
 
+![CurrencyConverter](https://i.postimg.cc/zvHm3vYY/exchange-print-Screen.png)
+
 ## Demo ##
  https://blaugranista.github.io/CurrencyConverter/
 
